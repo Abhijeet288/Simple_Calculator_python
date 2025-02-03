@@ -66,4 +66,4 @@ zero=Button(btns_frame,text='0',width=24,height=3,command=lambda:btn_click(0)).g
 point=Button(btns_frame,text='.',width=10,height=3,command=lambda:btn_click('.')).grid(row=4, column=2, padx=1, pady=1)
 equal=Button(btns_frame,text='=',width=10,height=3,command=lambda:btn_equal()).grid(row=4, column=3, padx=1, pady=1)
 
-win.mainloop()  #makes our application visible
+ #makes our application visible
